@@ -1,5 +1,4 @@
   /* ---------------------navbar----------------- */
-
   .navbarul {
     list-style-type: none;
     margin: 0;
@@ -14,7 +13,7 @@
 
   .navbar a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15% 50px;
     text-decoration: none;
@@ -22,7 +21,7 @@
 
   .navbar a:hover {
     background-color: none;
-    color: bisque;
+    color: #ffe4c4;
   }
 
   .container {
@@ -35,21 +34,21 @@
   }
 
   .text_col {
-    color: yellowgreen;
+    color: #9acd32;
   }
 
   .text_i {
-    color: yellowgreen;
+    color: #9acd32;
   }
 
   .Name_R {
     font-size: 130px;
-    color: whitesmoke;
+    color: #f5f5f5;
   }
 
   .Fron_end {
     font-size: 25px;
-    color: aliceblue;
+    color: #f0f8ff;
   }
 
   .header {
@@ -109,25 +108,33 @@
   .languages a {
     font-size: 4.5em;
     padding: 3rem;
-      }
-   .hovericon a:hover {
-          background: url(/icons/css3.png);
-          background-color: #213b50;
-   }   
-  /* .text_My {
-    text-align: center;
-    margin: 70px auto 0;
+  }
+
+  .imgcss:hover {
+    /* opacity: 5; */
+    background-color: #2FA9DC;
+  }
+
+  .imgjp:hover {
+    background-color: #DF9E26;
+  }
+
+  .imgjquery:hover {
+    background-color: #121D29;
+  }
+
+  .imghtml5:hover {
+    background-color: #F1662B;
+  }
+
+  .skillsh1 {
+    margin-top: 1%;
   }
 
   .text_Lor {
     text-align: justify;
     padding: 4%
   }
-
-  .padding2 {
-    text-align: center;
-    font-size: 10rem;
-  } */
 
   /* --------------------my portfolio -------------------- */
 
@@ -179,18 +186,17 @@
   .namespan {
     color: #9acd32;
   }
-  
-  .copyfo {
-    background-color: #00ACED;
-    width: 100%;
-  }
 
   .linebr {
+    padding: 15px;
     text-align: center;
   }
 
- 
-     
+  .copyfo {
+    background-color: rgb(18, 18, 19);
+    width: 100%;
+  }
+
   .formfooter {
     margin-top: 3%;
   }
@@ -198,7 +204,7 @@
   .exampletext {
     display: block;
     text-align: left;
-    color: white;
+    color: #ffffff;
   }
 
   .btn-success {
@@ -214,7 +220,7 @@
     text-align: left;
     margin-left: 5%;
     margin-top: 5%;
-    color: white;
+    color: #ffffff;
 
   }
 
