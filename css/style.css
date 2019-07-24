@@ -1,5 +1,5 @@
   /* ---------------------navbar----------------- */
-  
+
   .navbarul {
     list-style-type: none;
     margin: 0;
@@ -58,10 +58,10 @@
     background-size: cover;
     /* position: relative; */
 
-
   }
 
   /* Grow */
+
   .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -92,7 +92,6 @@
   .About_p {
     text-align: justify;
     padding: 6%;
-    
   }
 
   .image_foto {
@@ -107,67 +106,137 @@
 
   /* ---------------skills--------------------------- */
 
-  .text_My {
+  .languages a {
+    font-size: 4.5em;
+    padding: 3rem;
+      }
+   .hovericon a:hover {
+          background: url(/icons/css3.png);
+          background-color: #213b50;
+   }   
+  /* .text_My {
     text-align: center;
     margin: 70px auto 0;
-          }
-  
+  }
+
   .text_Lor {
     text-align: justify;
     padding: 4%
   }
-       
-/* --------------------my portfolio -------------------- */
 
-.portfoli {
-  margin: 50px;
-  text-align: center;
+  .padding2 {
+    text-align: center;
+    font-size: 10rem;
+  } */
+
+  /* --------------------my portfolio -------------------- */
+
+  .portfoli {
+    margin: 3%;
+    text-align: center;
   }
 
-.image_port {
-  display: inline-block;
-  text-align: center;
-  
- }
+  .image_port {
+    display: inline-block;
+    text-align: center;
 
- .filopac {
+  }
+
+  .filopac {
     filter: opacity(.5);
     border: 4px solid burlywood;
     padding: -40%;
-    border-bottom-width:  2px;
-     }
+    border-bottom-width: 2px;
+  }
 
- .textlor {
-  display: block;
+  .textlor {
+    display: block;
+
+  }
+
+  .mydane {
+    position: absolute;
+
+  }
+
+  .h3port {
+    text-align: center;
+  }
+
+  .chaingl {
+    position: absolute;
+    padding: 200px;
+    margin-left: 20px;
+  }
+
+  /* -----------------footer form-------------------- */
+
+  .footer {
+    background-color: #213b50;
+    margin-top: 8%;
+  }
+
+  .namespan {
+    color: #9acd32;
+  }
   
- }
+  .copyfo {
+    background-color: #00ACED;
+    width: 100%;
+  }
 
- .mydane {
-   position: absolute;
-    
- }
-
- .h3port {
-   text-align: center;
- }
-
- .chaingl {
-  position: absolute;
-  padding: 200px;
-  margin-left: 20px;
-   }
-
- /* -----------------footer form-------------------- */
-
- .touch {
-   position: relative;
-   background-color: #213b50;
-   margin-top: 100px;
-   
- }
-
- .yellowgrey {
-   padding: 10%;
- }
+  .linebr {
+    text-align: center;
+  }
 
  
+     
+  .formfooter {
+    margin-top: 3%;
+  }
+
+  .exampletext {
+    display: block;
+    text-align: left;
+    color: white;
+  }
+
+  .btn-success {
+    margin: 2%;
+  }
+
+  .social a {
+    font-size: 3.0em;
+    padding: 1rem;
+  }
+
+  .textsocial {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+
+  }
+
+  .fa-facebook {
+    color: #3b5998
+  }
+
+  .fa-twitter {
+    color: #00aced;
+  }
+
+  .fa-instagram {
+    color: #517fa4;
+  }
+
+  .fa-linkedin {
+    color: #0077B5;
+  }
+
+  .fa-facebook:hover,
+  .fa-instagram:hover,
+  .fa-linkedin:hover,
+  .fa-twitter:hover {
+    color: #9acd32;
+  }
