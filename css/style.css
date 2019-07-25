@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-
-  }
-
+   }
+   
   .navbar {
     float: right;
   }
@@ -246,3 +245,33 @@
   .fa-twitter:hover {
     color: #9acd32;
   }
+
+/* -------------------media--------------------- */
+
+@media screen and (min-width: 2560px) {
+.header {
+width: 100%;
+}
+}
+
+@media screen and (max-width: 1440px) {
+
+  
+  .header {
+    width: 1440px;
+  }
+
+  .d-flex{
+    flex-direction: column;
+    text-align: center;
+    width: 1440px;
+    }
+
+    .navbarul {
+      
+      
+    }
+     .languages {
+       text-align: left;
+     }
+}
