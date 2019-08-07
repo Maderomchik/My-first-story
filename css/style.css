@@ -23,7 +23,7 @@
     color: #ffe4c4;
   }
 
-  .container {
+  .container_main{
     position: absolute;
     top: 30%;
     left: 50%;
@@ -41,7 +41,7 @@
   }
 
   .Name_R {
-    font-size: 130px;
+    font-size: 110px;
     color: #f5f5f5;
   }
 
@@ -84,12 +84,14 @@
 
   .About_2 {
     text-align: left;
-    margin: 50px;
+    margin: 30px;
   }
 
   .About_p {
+    display: block;
     text-align: justify;
-    padding: 6%;
+    padding: 1%;
+    
   }
 
   .image_foto {
@@ -98,7 +100,7 @@
   }
 
   .image_foto {
-    display: block;
+    display: absolute;
     margin: 180px auto 0;
   }
 
